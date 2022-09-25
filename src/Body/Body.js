@@ -4,10 +4,10 @@ import Profile from "../assets/profile.jpg";
 export default function Body() {
   return (
     <div className="pt-32 sm:w-full" id="home">
-      <div className="xl:pl-72">
-        <p className="font-light pl-10">
+      <div className="xl:pl-72 ">
+        <p className="font-light pl-10 ">
           Hello, My Name Is
-          <span className="text-xl font-bold ml-3 bg-purple-300 p-1 rounded-2xl pl-2">
+          <span className="text-xl font-bold ml-3 bg-purple-300 p-1 rounded-2xl pl-2 ">
             Lisman Arsilo
           </span>
         </p>
@@ -18,8 +18,8 @@ export default function Body() {
           </span>
         </p>
       </div>
-      <div className="my-3 py-2 sm:flex sm:justify-between sm:px-20">
-        <div className="border border-slate-200 rounded-2xl bg-purple-700 mb-5 w-10/12 sm:w-7/12 p-5 mx-auto hover:bg-purple-500">
+      <div className="my-3 py-2 sm:flex sm:justify-between sm:px-20 ">
+        <div className="border border-slate-200 rounded-2xl bg-purple-700 mb-5 w-10/12 sm:w-7/12 p-5 mx-auto hover:bg-purple-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="font-bold text-lg text-center">About Me</p>
           <p>
             Hello my name is <span className="font-bold">Lisman Arsilo</span>, i
@@ -29,17 +29,16 @@ export default function Body() {
             live in depok.
           </p>
         </div>
-        <div>
+        <div id="project">
           <img
             src={Profile}
-            className="rounded-full h-52 w-52 border-4 border-purple-900 mx-auto"
+            className="rounded-full h-52 w-52 border-4 border-purple-900 mx-auto transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30"
             alt="Profile"
-            id="project"
           />
         </div>
       </div>
       <div className="sm:grid sm:grid-cols-3 gap-2 mt-5 mx-2 mb-5 border border-slate-300 p-5 block bg-purple-900 rounded-3xl">
-        <div className="border border-slate-200 text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
           <p className="border-b-2 font-semibold">Create Forms</p>
           <div className="pt-3 flex">
             <p className="pr-7">Project|</p>
@@ -55,7 +54,7 @@ export default function Body() {
             </a>
           </div>
         </div>
-        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="border-b-2 font-semibold">Landing Page(FreeCodeCamp)</p>
           <div className="pt-3 flex">
             <p className="pr-7">Project|</p>
@@ -71,7 +70,7 @@ export default function Body() {
             </a>
           </div>
         </div>
-        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="border-b-2 font-semibold">Create Forms</p>
           <div className="pt-3 flex">
             <p className="pr-5">Project|</p>
@@ -87,7 +86,7 @@ export default function Body() {
             </a>
           </div>
         </div>
-        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="border-b-2 font-semibold">Create Profile</p>
           <div className="pt-3 flex">
             <p className="pr-5">Project|</p>
@@ -103,7 +102,7 @@ export default function Body() {
             </a>
           </div>
         </div>
-        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="border-b-2 font-semibold">Create Api NodeJs</p>
           <div className="pt-3 flex">
             <p className="pr-5">Project|</p>
@@ -119,7 +118,7 @@ export default function Body() {
             </a>
           </div>
         </div>
-        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0">
+        <div className="border border-slate-200 w-full text-center px-2 py-3 rounded-2xl bg-purple-700 hover:bg-purple-500 my-3 sm:my-0 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
           <p className="border-b-2 font-semibold">
             CRUD Frontend ReactJS & Backend NodeJS
           </p>
@@ -150,7 +149,7 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <div className="border border-slate-200 w-6/12 mx-auto text-center py-3 rounded-2xl mb-5 bg-purple-700 hover:bg-purple-500 min-w-max">
+      <div className="border border-slate-200 w-6/12 mx-auto text-center py-3 rounded-2xl mb-5 bg-purple-700 hover:bg-purple-500 min-w-max transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-30">
         <div>
           <p className="border-b-2 mx-16 font-semibold">My Skill</p>
         </div>
