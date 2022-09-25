@@ -1,11 +1,13 @@
 import React from "react";
-import { faFontAwesome } from "@fortawesome/free-regular-svg-icons";
 
 export default function Footer() {
   return (
     <div>
-      <div className="bg-purple-900 sm:grid sm:grid-cols-2">
-        <div className="pt-5 text-center border border-b-1 sm:border-none sm:text-left sm:pl-24 pl-3">
+      <div
+        className="bg-purple-700 sm:grid sm:grid-cols-2 rounded-t-3xl"
+        id="contact"
+      >
+        <div className="pt-5 sm:border-none sm:text-left sm:pl-24 text-center">
           <p className="py-3 font-semibold">My Contact and Social Media</p>
           <ul className="sm:pl-7 mb-8">
             <li className="py-1">
@@ -46,7 +48,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="mt-auto">
+        <div className="mt-auto bg-purple-900 sm:bg-purple-700">
           <p className="font-bold text-center sm:text-end sm:pr-7 py-3">
             CopyRight @2022
           </p>

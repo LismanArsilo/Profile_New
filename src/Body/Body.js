@@ -3,7 +3,7 @@ import Profile from "../assets/profile.jpg";
 
 export default function Body() {
   return (
-    <div className="pt-7 border border-slate-600 sm:w-full">
+    <div className="pt-32 sm:w-full" id="home">
       <div className="xl:pl-72">
         <p className="font-light pl-10">
           Hello, My Name Is
@@ -18,7 +18,7 @@ export default function Body() {
           </span>
         </p>
       </div>
-      <div className=" my-3 py-2 sm:flex sm:justify-between sm:px-20 ">
+      <div className="my-3 py-2 sm:flex sm:justify-between sm:px-20">
         <div className="border border-slate-200 rounded-2xl bg-purple-700 mb-5 w-10/12 sm:w-7/12 p-5 mx-auto hover:bg-purple-500">
           <p className="font-bold text-lg text-center">About Me</p>
           <p>
@@ -34,6 +34,7 @@ export default function Body() {
             src={Profile}
             className="rounded-full h-52 w-52 border-4 border-purple-900 mx-auto"
             alt="Profile"
+            id="project"
           />
         </div>
       </div>
